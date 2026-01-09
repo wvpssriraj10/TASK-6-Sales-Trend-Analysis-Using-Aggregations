@@ -1,0 +1,32 @@
+# Git Commands to Push TASK 6 to GitHub Repository
+
+# 1. Configure Git (if not already done)
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+
+# 2. Add all files to staging
+git add .
+
+# 3. Create initial commit
+git commit -m "Initial commit: TASK 6 Sales Trend Analysis Using Aggregations
+
+- Complete SQLite database with 2,823 sales records
+- SQL script with 4 comprehensive aggregation queries
+- Automated Python solution for data processing
+- Professional table visualizations (PNG screenshots)
+- Technical interview questions and answers
+- Comprehensive README documentation
+- NULL handling demonstrations
+- Monthly revenue and trend analysis"
+
+# 4. Add remote repository
+git remote add origin https://github.com/wvpssriraj10/TASK-6-Sales-Trend-Analysis-Using-Aggregations.git
+
+# 5. Push to GitHub
+git branch -M main
+git push -u origin main
+
+# Alternative if you encounter authentication issues:
+# Use GitHub CLI or Personal Access Token
+# git remote set-url origin https://YOUR_TOKEN@github.com/wvpssriraj10/TASK-6-Sales-Trend-Analysis-Using-Aggregations.git
+# git push -u origin main
